@@ -7,3 +7,7 @@ echo ">>>>>>Stoped"
 echo ">>>>>>Permission to docker"
 sudo chown $USER /var/run/docker.sock
 echo ">>>>>>Done"
+
+echo ">>>>>>Stoping tomcat service"
+sudo systemctl stop tomcat
+echo ">>>>>>Stoped"
